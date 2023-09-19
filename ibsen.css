@@ -1,0 +1,29 @@
+
+.speech {
+font-family: cursive;
+font-size: medium;
+color: black;
+    }
+.direction{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: smaller;
+  color: black;
+  background-color:yellow;  
+
+}
+.hilda{
+  font-family: sans-serif;
+  font-size: small;
+  color:green;
+}
+.solness{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: small;
+  color:red;
+}
+.direction:hover{
+
+  background-color: blue;
+  color: chartreuse;
+}
+
