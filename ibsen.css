@@ -12,6 +12,7 @@ color: black;
 
 }
 .hilda{
+  
   font-family: sans-serif;
   font-size: small;
   color:green;
@@ -36,6 +37,18 @@ color: black;
   margin:0px;
   }
 
+  .hilda:hover{
+border :solid 1.1px rgb(150, 60, 77);
+text-shadow: 1.5px 1.5px 1.5px rgb(40,70,270);
+
+
+  }
+
+  .solness:hover{
+    border :solid 1.1px rgb(150, 60, 77);
+    text-shadow: 1.5px 1.5px 1.5px rgb(40,70,270);
+ }
+    
   
   
    
