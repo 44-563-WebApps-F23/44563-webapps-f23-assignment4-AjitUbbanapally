@@ -28,14 +28,40 @@ color: black;
   color: chartreuse;
 }
 
-.tabular,th,td{
-  border: 1.5px solid;
-  color: blue;
+table{
+
+  border-collapse:seperate;
+  width:100%;
+  margin-top: 20px;
+  margin-bottom: 10px;
   text-align: center;
-  padding: 0px;
-  border-style: double;
-  margin:0px;
-  }
+}
+
+table th{
+  border-color:blueviolet;
+  color:rgb(150, 60, 77);
+  
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+table td{
+  border: 1px solid crimson;
+  color:rgb(150, 60, 77);
+  
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+table tbody tr:nth-child(odd){
+background-color: orchid  ;
+}
+
+  
 
   .hilda:hover{
 border :solid 1.1px rgb(150, 60, 77);
