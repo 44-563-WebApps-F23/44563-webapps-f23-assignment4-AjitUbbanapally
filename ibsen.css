@@ -4,6 +4,13 @@ font-family: cursive;
 font-size: medium;
 color: black;
     }
+
+.name{
+font-family:'Courier New', Courier, monospace;
+font-size: medium;
+color: black;
+
+    }
 .direction{
   font-family: 'Courier New', Courier, monospace;
   font-size: smaller;
@@ -28,39 +35,17 @@ color: black;
   color: chartreuse;
 }
 
-table{
-
-  border:seperate;
-  width:100%;
-  margin-top: 20px;
-  margin-bottom: 10px;
+table,th,td{
+  border: 2px solid;
+  color: orange;
   text-align: center;
-}
-
-table th{
-  border-color:blueviolet;
-  color:rgb(150, 60, 77);
-  
-  text-align: center;
-  padding: 10px;
-  border-radius: 10px;
+  padding:0px;
+  margin: 0px;
 
 }
-
-table td{
-  border: 1px solid crimson;
-  color:rgb(150, 60, 77);
-  
-  text-align: center;
-  padding: 10px;
-  border-radius: 10px;
-
+tr:nth-child(odd){
+  background-color: rgb(48, 180, 278);
 }
-
-table tbody tr:nth-child(odd){
-background-color: orchid  ;
-}
-
   
 
   .hilda:hover{
@@ -75,7 +60,24 @@ text-shadow: 1.5px 1.5px 1.5px rgb(40,70,270);
     text-shadow: 1.5px 1.5px 1.5px rgb(40,70,270);
  }
     
-  
+ ul.navbar-horizontal{
+  list-style-type: none;
+  margin: 2px;
+  padding: 1.5px;
+}
+ul.navbar-horizontal li{
+  float: left;
+  color: rgb(20, 10, 88);
+  background-color: aquamarine;
+}
+ul.navbar-horizontal a{
+  display: block;
+  padding: 2.5px;
+}
+ul.navbar-horizontol a:hover{
+  background-color: rgb(101, 37, 199);
+  color: rgb(266, 221, 201)
+} 
   
    
  
